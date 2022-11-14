@@ -61,7 +61,7 @@ h2{
 /* JUMBO */
 
 .jumbo-returnal{
-    height: 70vh;
+    height: 80vh;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@ h2{
 }
 
 .returnal-hero-banner{
-    height: 50px;
+    height: 40px;
     margin-bottom: 20px;
 }
 
@@ -105,17 +105,11 @@ h2{
 /* JUMBO it-takes-two */
 
 .jumbo-it-takes-two{
-    height: 70vh;
+  
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.jumbo-it-takes-two h2,
-.jumbo-it-takes-two p
-{
-    background-color: rgba(94, 94, 94, 0.5);
 }
 
 .jumbo-it-takes-two button{
@@ -123,8 +117,7 @@ h2{
 }
 
 .it-takes-two-banner{
-    height: 200px;
-    margin-bottom: 20px;
+    height: 150px;
 }
 
 .jumbo-it-takes-two div{
@@ -139,6 +132,10 @@ h2{
 }
 
 /* EXPLORE PS4 */
+
+.card-explore{
+    line-height: 2rem;
+}
 
 /* PLAY STATION PLUS */
 
