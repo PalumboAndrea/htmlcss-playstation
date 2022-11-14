@@ -25,7 +25,7 @@ body{
 
 /* JUMBO */
 
-.jumbo-bg{
+.jumbo-returnal{
     height: 70vh;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body{
     background-position: center;
 }
 
-.jumbo-bg div{
+.jumbo-returnal div{
     color: white;
 }
 
@@ -43,5 +43,38 @@ body{
 }
 
 /* CARDS */
+
+/* PRESENTATION OF PS5 */
+
+/* JUMBO it-takes-two */
+
+.jumbo-it-takes-two{
+    height: 70vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.it-takes-two-banner{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.jumbo-it-takes-two div{
+    color: white;
+}
+
+/* COMING OUT */
+
+.coming-out{
+    background-color: rgb(31,31,31);
+    color: white;
+}
+
+/* EXPLORE PS4 */
+
+
+
 
 
