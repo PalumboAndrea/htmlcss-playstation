@@ -22,45 +22,112 @@
     <header>
 
         <div id="sony" class="d-flex justify-content-end pe-3">
-            <span class="uppercase">
-                sony
-            </span>
+            <img src="./img/sony_logo.svg" alt="" class="sony-logo py-2">
         </div>
 
         <!-- NAVBAR -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg p-0 fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">
+                <img src="./img/play_logo.svg" alt="">
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Giochi
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
+                    <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                        Hardware
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servizi
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Novità
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fai acquisti
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Supporto
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                  
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex align-items-center" role="search">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              My PlayStation
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-secondary sony-buttons">Accedi</button>
+                    <a href="">
+                        <img src="./img/lens.svg" alt="" id="lens" class="ms-4">
+                    </a>
                 </form>
               </div>
             </div>
@@ -114,7 +181,7 @@
 
         <!-- PRESENTATION OF PS5 -->
         <div class="container-fluid presentation">
-            <div class="row text-center justify-content-center mb-5">
+            <div class="row text-center justify-content-center">
                 <div class="col-12 col-md-6">
                     <span class="uppercase">
                         Play as no limits
@@ -414,79 +481,83 @@
 
 
     <!-- FOOTER -->
-    <footer class="container-fluid d-flex flex-column flex-lg-row py-5">
-        <div class="container">
-            <div class="row flex-column">
-                <div class="col-12 mb-4">
-                    <i class='fab fa-playstation'></i>
+    <footer class="container-fluid py-5">
+        <div class="container-fluid d-flex flex-column flex-lg-row">
+            <div class="container-fluid">
+                <div class="row flex-column">
+                    <div class="col-12 mb-4">
+                        <i class='fab fa-playstation'></i>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <i class='fas fa-globe'></i> Country / Region: Italy
+                    </div>
                 </div>
-                <div class="col-12 mb-4">
-                    <i class='fas fa-globe'></i> Country / Region: Italy
+            </div>
+            <div class="container d-flex flex-column flex-md-row justify-content-md-around mb-5 mb-lg-0">
+                <div class="row flex-column mb-3">
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                </div>
+                <div class="row flex-column mb-3">
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                </div>
+                <div class="row flex-column">
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    <div class="col">
+                        <a href="">Link Footer n</a>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container d-flex flex-column flex-md-row justify-content-md-around">
-            <div class="row flex-column mb-3">
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <img src="./img/sie-logo.svg" alt="" class="sie-logo">
+                    <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas mollitia, laudantium id debitis aliquam adipisci quod laboriosam fugit consequuntur, architecto corporis porro est ad eveniet minima inventore! Sequi, deleniti sapiente.
+                    </p>
                 </div>
             </div>
-            <div class="row flex-column mb-3">
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-            </div>
-            <div class="row flex-column">
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                <div class="col">
-                    <a href="">Link Footer n</a>
-                </div>
-                </div>
-            </div>
-        </div>
-        
-        
-            
-
-        
-        
-            
         </div>
 
     </footer>

@@ -41,6 +41,19 @@ h2{
 #sony{
     background-color: black;
     color: white;
+    height: 30px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.sony-logo{
+    height: 100%;
+}
+
+#lens{
+    height: 30px;
 }
 
 /* MAIN */
@@ -164,6 +177,15 @@ footer a{
 .fa-playstation{
     font-size: 5rem;
 }
+
+footer .col{
+    flex-grow: 0;
+}
+
+.sie-logo{
+    height: 50px;
+}
+
 
 
 
