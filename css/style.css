@@ -28,6 +28,8 @@ h2{
 
 :root {
     --button-orange: rgb(205,60,16);
+    --sony-height: 30px;
+    --navbar-height: 54px;
   }
 
 
@@ -35,13 +37,14 @@ h2{
 
 #sony{
     background-color: black;
-    position: relative;
     color: white;
-    height: 30px;
+    height: var(--sony-height);
+    width: 100%;
 }
 
 .navbar{
     background-color: white;
+    width: 100%;
 }
 
 .sony-logo{
@@ -79,24 +82,12 @@ h2{
 
 /* CARDS */
 
-.cards img:hover{
-    border: 2.5px solid rgb(46,131,212);
-}
-
 /* PRESENTATION OF PS5 */
 
 .presentation span{
     color: rgb(93,160,222);
 }
 
-.thumb-hover{
-    opacity: 0.5;
-}
-
-.thumb-hover:hover{
-    opacity: 1;
-    border-bottom: 2px solid rgb(93,160,222);
-}
 
 /* JUMBO it-takes-two */
 
