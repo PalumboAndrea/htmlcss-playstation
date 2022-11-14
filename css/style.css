@@ -31,15 +31,11 @@ h2{
   }
 
 
-
-
-
-
-
 /* HEADER */
 
 #sony{
     background-color: black;
+    position: relative;
     color: white;
     height: 30px;
 }
