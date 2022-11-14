@@ -1,0 +1,47 @@
+
+/* GENERAL */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* HEADER */
+
+#sony{
+    background-color: black;
+    color: white;
+}
+
+/* MAIN */
+
+/* JUMBO */
+
+.jumbo-bg{
+    height: 70vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo-bg div{
+    color: white;
+}
+
+.returnal-hero-banner{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* CARDS */
+
+
