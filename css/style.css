@@ -17,6 +17,20 @@ img{
     border-radius: 40px;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
+.grey-bold{
+    color: grey;
+    font-weight: bold;
+}
+
+:root {
+    --button-orange: rgb(205,60,16);
+  }
+
+
 
 
 
@@ -50,9 +64,30 @@ img{
     margin-bottom: 20px;
 }
 
+.jumbo-returnal button{
+    background-color: var(--button-orange);
+}
+
 /* CARDS */
 
+.cards img:hover{
+    border: 2.5px solid rgb(46,131,212);
+}
+
 /* PRESENTATION OF PS5 */
+
+.presentation span{
+    color: rgb(93,160,222);
+}
+
+.thumb-hover{
+    opacity: 0.5;
+}
+
+.thumb-hover:hover{
+    opacity: 1;
+    border-bottom: 2px solid rgb(93,160,222);
+}
 
 /* JUMBO it-takes-two */
 
@@ -62,6 +97,16 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.jumbo-it-takes-two h2,
+.jumbo-it-takes-two p
+{
+    background-color: rgba(94, 94, 94, 0.5);
+}
+
+.jumbo-it-takes-two button{
+    background-color: var(--button-orange);
 }
 
 .it-takes-two-banner{
@@ -86,6 +131,10 @@ img{
 
 #ps-plus{
     background-color: rgb(190,188,187);
+}
+
+#ps-plus button{
+    background-color: rgb(217,218,220);
 }
 
 /* DISCOUNT */
