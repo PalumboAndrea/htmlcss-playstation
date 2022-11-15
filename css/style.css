@@ -55,6 +55,25 @@ h2{
     height: 30px;
 }
 
+.nav-link{
+    position: relative;
+}
+
+.toggle-custom{
+    background-image: url(../img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 0;
+    transform: translateY(60%);
+}
+
+.nav-link:hover .toggle-custom{
+    background-image: url(../img/chevron-down-solid-hover.svg);
+}
+
 /* MAIN */
 
 /* JUMBO */
