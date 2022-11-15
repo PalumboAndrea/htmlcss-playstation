@@ -74,6 +74,8 @@ h2{
     background-image: url(../img/chevron-down-solid-hover.svg);
 }
 
+
+
 .nav-link:focus .toggle-custom{
     animation-name: toogle-rotation;
     animation-duration: 200ms;
